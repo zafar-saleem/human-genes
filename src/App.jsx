@@ -1,5 +1,6 @@
 import { CSVReader } from "src/components/CSVreader";
-import './App.css';
+import "ag-grid-community/styles/ag-grid.css";
+import "ag-grid-community/styles/ag-theme-alpine.css";
 
 function App() {
   return (
