@@ -1,8 +1,8 @@
 "use client";
 
 import Papa from "papaparse";
-import PropTypes from 'prop-types';
 
+/* eslint-disable-next-line react/prop-types */
 export const CSVSelector = ({ onChange }) => {
   const handleFileChange = async (event) => {
     if (event.target.files) {
@@ -23,8 +23,3 @@ export const CSVSelector = ({ onChange }) => {
   };
   return <input type="file" accept=".csv" onChange={handleFileChange} />;
 };
-
-CSVSelector.propTypes = {
-  onChange: PropTypes.node.isRequired,
-};
-  
