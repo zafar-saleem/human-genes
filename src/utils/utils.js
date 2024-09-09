@@ -2,11 +2,11 @@ export const url = (id) => `https://mygene.info/v3/gene/${id}?fields=accession&d
 
 export const mockTransactionDataColumns = () => {
   return [
-    { field: "Ensembl", headerName: "Ensembl", width: 100 },
+    { field: "Ensembl", headerName: "Ensembl", width: 180 },
     {
       field: "Gene symbol",
       headerName: "Gene Symbol",
-      width: 200,
+      width: 150,
       sortable: true,
       filter: "agSetColumnFilter",
       filterParams: {
@@ -15,6 +15,6 @@ export const mockTransactionDataColumns = () => {
     },
     { field: "Name", headerName: "Name", width: 200 },
     { field: "Biotype", headerName: "Biotype", width: 200 },
-    { field: "Chromosome", headerName: "Chromosome", width: 200 }
+    { field: "Chromosome", headerName: "Chromosome", width: 125 }
   ];
 };
