@@ -32,8 +32,6 @@
 ![Product Name Screen Shot](screenshots/screenshot.png)
 This project reads `CSV` file to get human genes data and render it in a table. Upon clicking on a particular row, it makes a request to server using `tanstack query` to get detail protein data to render the details on a chart using `echarts` library.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -61,8 +59,6 @@ Below are the core technologies I used for this project.
 * [Swimlanes](https://swimlanes.io)
 * [Draw IO](https://draw.io/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -95,8 +91,6 @@ To install yarn run the command below.
    yarn
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -105,8 +99,6 @@ To run the project, below command will help.
   ```sh
   yarn dev
   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -148,8 +140,6 @@ To run the project, below command will help.
 └── yarn.lock
   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GIT STRATEGY -->
 ## Git Strategy
 
@@ -157,16 +147,12 @@ The git strategy I used for this project below. The complete workflow is depicte
 
 ![Screenshot](screenshots/git-strategy.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ARCHITECTURE -->
 ## Architecture
 
 Below is an Architecture I followed for this project.
 
 ![Screenshot](screenshots/architecture.jpg)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DEV LINKS -->
 ## Dev Links
@@ -180,7 +166,3 @@ Below is an Architecture I followed for this project.
 Click on below screenshot to view live demo on youtube.
 
 [![Product Name Screen Shot](screenshots/screenshot.png)](https://youtu.be/HNWBTaeCZcI)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
