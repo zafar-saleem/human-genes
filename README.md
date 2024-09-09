@@ -157,7 +157,7 @@ Below is an Architecture I followed for this project.
 <!-- DEV LINKS -->
 ## Dev Links
 
-* [Gitlab Project](https://github.com/zafar-saleem/human-genes)
+* [Github Project](https://github.com/zafar-saleem/human-genes)
 * [Commits](https://github.com/zafar-saleem/human-genes/commits/develop/)
 
 <!-- LIVE DEMO -->
