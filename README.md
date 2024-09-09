@@ -19,8 +19,8 @@
     <li><a href="#folder-structure">Folder Structure</a></li>
     <li><a href="#git-strategy">Git Strategy</a></li>
     <li><a href="#architecture">Architecture</a></li>
-    <li><a href="#contributions">Contributions</a></li>
     <li><a href="#dev-links">Dev Links</a></li>
+    <li><a href="#live-demo">Live Demo</a></li>
   </ol>
 </details>
 
@@ -56,7 +56,8 @@ Below are the core technologies I used for this project.
 * [Github](https://github.com/)
 * [eslint](https://eslint.org/)
 * [prettier](https://prettier.io/)
-* [husky](https://github.com/typicode/husky)
+* [husky](https://typicode.github.io/husky/)
+* [youtube](https://youtube.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -170,4 +171,14 @@ Below is an Architecture I followed for this project.
 
 * [Gitlab Project](https://github.com/zafar-saleem/human-genes)
 * [Commits](https://github.com/zafar-saleem/human-genes/commits/develop/)
+
+<!-- LIVE DEMO -->
+## Live Demo
+
+Click on below screenshot to view live demo on youtube.
+
+[![Product Name Screen Shot](screenshots/screenshot.png)](https://youtu.be/HNWBTaeCZcI)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
