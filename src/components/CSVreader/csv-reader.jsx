@@ -7,26 +7,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import ReactECharts from "echarts-for-react";
 import { Grid, Alert } from "@mantine/core";
-import { url } from "../../utils/utils";
-
-export const mockTransactionDataColumns = () => {
-  return [
-    { field: "Ensembl", headerName: "Ensembl", width: 100 },
-    {
-      field: "Gene symbol",
-      headerName: "Gene Symbol",
-      width: 200,
-      sortable: true,
-      filter: "agSetColumnFilter",
-      filterParams: {
-        caseSensitive: true
-      }
-    },
-    { field: "Name", headerName: "Name", width: 200 },
-    { field: "Biotype", headerName: "Biotype", width: 200 },
-    { field: "Chromosome", headerName: "Chromosome", width: 200 }
-  ];
-};
+import { url, mockTransactionDataColumns } from "../../utils/utils";
 
 const fetchPosts = async (geneID) => {
   const response = await axios.get(url(geneID));
