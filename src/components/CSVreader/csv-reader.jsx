@@ -33,7 +33,9 @@ export const CSVReader = () => {
 
   useEffect(() => {
     if (!gene) return;
-    if (!Object.hasOwn(gene, "accession") || !Object.hasOwn(gene?.accession, "protein")) return setError(`No proteins list found for ${geneID}`);
+    if (!Object.hasOwn(gene, "accession") || !Object.hasOwn(gene?.accession, "protein"))
+      return setError(`No proteins list found for ${geneID}`);
+
     setError("");
     setChartOptions({
       xAxis: {
