@@ -1,13 +1,15 @@
 "use client";
 
 import Papa from "papaparse";
+import { FileInput } from "@mantine/core";
 
 /* eslint-disable-next-line react/prop-types */
 export const CSVSelector = ({ onChange }) => {
   const handleFileChange = async (event) => {
-    if (event.target.files) {
+    console.log(event);
+    if (event) {
       try {
-        const file = event.target.files[0];
+        const file = event;
 
         Papa.parse(file, {
           worker: true,
@@ -21,5 +23,12 @@ export const CSVSelector = ({ onChange }) => {
       }
     }
   };
-  return <input type="file" accept=".csv" onChange={handleFileChange} />;
+
+  return <FileInput
+    label="Please choose csv file"
+    description="Only csv files are accepted"
+    placeholder="Please choose file"
+    accept=".csv"
+    onChange={handleFileChange}
+  />;
 };
