@@ -57,7 +57,6 @@ export const CSVReader = () => {
   const onSelectionChanged = useCallback(() => {
     const selectedRows = gridRef?.current?.api.getSelectedRows();
     setGeneID(selectedRows[0].Ensembl);
-    // (document.querySelector("#selectedRows")).innerHTML = selectedRows?.length === 1 ? selectedRows[0].Ensembl : "";
   }, []);
 
   return (
