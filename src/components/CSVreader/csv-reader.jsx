@@ -36,7 +36,6 @@ export const CSVReader = () => {
     if (!Object.hasOwn(gene, "accession") || !Object.hasOwn(gene?.accession, "protein")) return setError(`No proteins list found for ${geneID}`);
     setError("");
     setChartOptions({
-      label: "ASDSADASDS",
       xAxis: {
         type: 'category',
         data: gene.accession?.protein?.map(name => name.substring(0, 2)),
