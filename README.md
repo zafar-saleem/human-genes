@@ -58,6 +58,8 @@ Below are the core technologies I used for this project.
 * [prettier](https://prettier.io/)
 * [husky](https://typicode.github.io/husky/)
 * [youtube](https://youtube.com)
+* [Swimlanes](https://swimlanes.io)
+* [Draw IO](https://draw.io/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
