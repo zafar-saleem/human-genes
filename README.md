@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](screenshots/git-strategy.png)]
+![Product Name Screen Shot](screenshots/screenshot.png)
 This project reads `CSV` file to get human genes data and render it in a table. Upon clicking on a particular row, it makes a request to server using `tanstack query` to get detail protein data to render the details on a chart using `echarts` library.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -42,7 +42,7 @@ Below are the core technologies I used for this project.
 
 * [React](https://reactjs.org/)
 * [Mantine](https://mantine.dev/)
-* [MantineVisual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [ECharts](https://echarts.apache.org/en/index.html)
 * [ECharts For React](https://www.npmjs.com/package/echarts-for-react)
 * [Tanstack Query(formerly React Query)](https://tanstack.com/)
@@ -68,7 +68,7 @@ To run this project, please follow the steps below.
 
 ### Prerequisites
 
-To install node 16.17.0, run the command below.
+To install node v21.1.0, run the command below.
 
 * node
   ```sh
@@ -85,7 +85,7 @@ To install yarn run the command below.
 
 1. Clone the repo
    ```sh
-   git@gitlab.com:zsaleem/isocietyworld.git
+   git@github.com:zafar-saleem/human-genes.git
    ```
 2. Install NPM packages
    ```sh
@@ -168,6 +168,6 @@ Below is an Architecture I followed for this project.
 <!-- DEV LINKS -->
 ## Dev Links
 
-* [Gitlab Project](https://gitlab.com/zsaleem/isocietyworld)
-* [Commits](https://gitlab.com/zsaleem/isocietyworld/-/commits/master)
+* [Gitlab Project](https://github.com/zafar-saleem/human-genes)
+* [Commits](https://github.com/zafar-saleem/human-genes/commits/develop/)
 
