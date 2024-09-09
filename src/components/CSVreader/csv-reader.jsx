@@ -54,15 +54,12 @@ export const CSVReader = () => {
     });
   }, [gene]);
 
-  console.log(error);
-
   const onSelectionChanged = useCallback(() => {
     const selectedRows = gridRef?.current?.api.getSelectedRows();
     setGeneID(selectedRows[0].Ensembl);
     // (document.querySelector("#selectedRows")).innerHTML = selectedRows?.length === 1 ? selectedRows[0].Ensembl : "";
   }, []);
 
-  console.log(geneID, gene);
   return (
     <Grid>
       <Grid.Col span={6}>
