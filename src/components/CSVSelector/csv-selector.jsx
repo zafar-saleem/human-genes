@@ -6,7 +6,6 @@ import { FileInput } from "@mantine/core";
 /* eslint-disable-next-line react/prop-types */
 export const CSVSelector = ({ onChange }) => {
   const handleFileChange = async (event) => {
-    console.log(event);
     if (event) {
       try {
         const file = event;
@@ -25,7 +24,7 @@ export const CSVSelector = ({ onChange }) => {
   };
 
   return <FileInput
-    label="Please choose csv file"
+    label="Please choose csv file in order to continue"
     description="Only csv files are accepted"
     placeholder="Please choose file"
     accept=".csv"

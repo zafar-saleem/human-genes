@@ -38,6 +38,9 @@ export const CSVReader = () => {
 
     setError("");
     setChartOptions({
+      title: {
+        text: geneID,
+      },
       xAxis: {
         type: 'category',
         data: gene.accession?.protein?.map(name => name.substring(0, 2)),
